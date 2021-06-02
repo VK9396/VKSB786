@@ -20,5 +20,9 @@ public class JavaCourseMatrial implements ICourseMaterial {
 		System.out.println("javaCourseMaterial.price()");
 		return 3000;
 	}
+	
+	public String offer() {
+		return "free";
+	}
 
 }

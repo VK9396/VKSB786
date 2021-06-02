@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component("python")
-@Primary
+//@Primary
 public class PythonCourseMatrial implements ICourseMaterial {
 
 	
@@ -21,6 +21,10 @@ public class PythonCourseMatrial implements ICourseMaterial {
 	public double price() {
 		System.out.println("PythonCourseMaterial.price()");
 		return 5000;
+	}
+	
+	public String offer() {
+		return "free";
 	}
 
 }

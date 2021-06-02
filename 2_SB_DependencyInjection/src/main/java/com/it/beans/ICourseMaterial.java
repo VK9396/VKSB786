@@ -4,5 +4,6 @@ public interface ICourseMaterial {
 	
 	public String courseMaterial();
 	public double price();
+	public String offer();
 
 }

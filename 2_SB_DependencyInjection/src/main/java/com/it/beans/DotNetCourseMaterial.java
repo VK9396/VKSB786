@@ -2,7 +2,7 @@ package com.it.beans;
 
 import org.springframework.stereotype.Component;
 
-@Component("donNet")
+@Component("dotNet")
 public class DotNetCourseMaterial implements ICourseMaterial {
 
 	@Override
@@ -15,6 +15,9 @@ public class DotNetCourseMaterial implements ICourseMaterial {
 	public double price() {
 		 System.out.println("DotNewCourseMaterial.price()");
 		return 4000;
+	}
+	public String offer() {
+		return "free";
 	}
 
 }

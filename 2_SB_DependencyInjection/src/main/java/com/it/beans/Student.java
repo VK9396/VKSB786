@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class Student {
 	 
   @Autowired
-//  @Qualifier("java")
+ @Qualifier("c")
 	   private  ICourseMaterial material; //Has-A Property
 	
 	public void preparation(String examName) {
